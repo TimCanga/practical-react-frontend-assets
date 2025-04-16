@@ -1,0 +1,72 @@
+/*******************/
+// Theme Fonts
+/********************/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+$font-family-sans-serif: "Hanken Grotesk", Arial, sans-serif;
+
+/*******************/
+// Colors
+/********************/
+$primary: #B2D953;
+$info: #64c2c9;
+$danger: #f64e60;
+$success: #5cb85c;
+$warning: #e57e0f;
+$dark: #22333b;
+$light: #f8f8f8;
+$secondary: #82A62C;
+$purple: #8e5e98;
+$pink: #e68ab6;
+$mauv: #6175e8;
+$yellow: #f3e405;
+
+$ucandc: #FF8200;
+$cx: #3F6FFF;
+$sandc: #AE14CE;
+
+/*******************/
+// Theme variants (Light/Dark)
+/********************/
+$themes: ( 
+  "bg-color": (
+    "lightTheme": #E4E4E4,
+    "darkTheme": #1b272d,
+  ),
+  "bg-color-contrast1": (
+    "lightTheme": #f8f8f8,
+    "darkTheme": #22333b,
+  ),
+  "bg-color-contrast2": (
+    "lightTheme": #dee2e6,
+    "darkTheme": #2c414b,
+  ),
+  "bg-color-contrast3": (
+    "lightTheme": #adb5bd,
+    "darkTheme": #3e5a68,
+  ),
+  "bg-color-contrast4": (
+    "lightTheme": #eceff1,
+    "darkTheme": #2c414b,
+  ),
+  "border-color": (
+    "lightTheme": rgba(0, 0, 0, 0.1),
+    "darkTheme": rgba(255, 255, 255, 0.1),
+  ),
+  "border-color2": (
+    "lightTheme": rgba(0, 0, 0, 0.3),
+    "darkTheme": rgba(255, 255, 255, 0.3),
+  ),
+  "text-color": (
+    "lightTheme": #35363b,
+    "darkTheme": #eaf2fb,
+  ),
+  "text-color-muted": (
+    "lightTheme": #35363bc6,
+    "darkTheme": #eaf2fbc6,
+  ),
+  "text-color2": (
+    "lightTheme": #000,
+    "darkTheme": #f8f8f8,
+  )
+);
